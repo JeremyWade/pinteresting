@@ -24,6 +24,9 @@ gem 'jbuilder', '~> 2.0'
 gem 'bootstrap-sass' 
 gem 'stripe', :git => 'https://github.com/stripe/stripe-ruby'
 
+# For securely managing private creditials 
+gem 'figaro'
+
 
 
 # bundle exec rake doc:rails generates the API under doc/api.

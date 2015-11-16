@@ -4,5 +4,5 @@ class PagesController < ApplicationController
    def about
   end
   def stripepayments
-  end
+  end	
 end
