@@ -26,6 +26,8 @@ gem 'stripe', :git => 'https://github.com/stripe/stripe-ruby'
 # For securely managing private creditials 
 gem 'figaro'
 
+gem 'devise'
+
 
 group :development , :test do
 	gem 'sqlite3'
