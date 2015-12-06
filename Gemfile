@@ -36,6 +36,7 @@ gem 'masonry-rails', '~> 0.2.0'
 
 group :development , :test do
 	gem 'sqlite3'
+  gem 'letter_opener'
 	end
 
 group :production do
