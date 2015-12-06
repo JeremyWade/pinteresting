@@ -13,6 +13,9 @@ gem 'coffee-rails', '~> 4.1.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 
+# Add activeAdmin to generate an admin interface
+gem 'activeadmin', github: 'activeadmin'
+
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 
@@ -32,7 +35,6 @@ gem 'paperclip', '~> 4.2'
 gem 'aws-sdk', '< 2.0'
 
 gem 'masonry-rails', '~> 0.2.0'
-
 
 group :development , :test do
 	gem 'sqlite3'
