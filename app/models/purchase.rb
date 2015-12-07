@@ -1,4 +1,4 @@
-class Purchase < ActiveRecord::Base
+class PurchaseMailer < ActiveRecord::Base
 	
 	after_create :email_purchaser
 
